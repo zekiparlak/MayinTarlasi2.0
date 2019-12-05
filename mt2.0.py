@@ -52,10 +52,6 @@ def move(x,y):
         map[mvx][mvy] = "X"
         map[mvx - x][mvy - y] = " "
 while True:
-    global point
-    global count
-    global win
-    global message
     point = 0
     count = 0
     map = [["#","#","#","#","#","#","#"],
@@ -86,7 +82,7 @@ while True:
             print("You Win")
             win = False
             break
-        print("MAYIN TARLASI 2.0\nCreated by freeNULL")
+        print("MAYIN TARLASI 2.0\n")
         print()
         print("Puan:",point)
         print()
